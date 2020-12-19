@@ -11,7 +11,7 @@ source:
   sha256: 6c2c38d894014d57cb3151265c11146506ead3b3bc290898adc33711711612de
 
 build:
-  number: 2
+  number: 3
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -38,9 +38,7 @@ about:
   license_file:
     - LICENSE.txt
     - NOTICE.txt
-  doc_url:
-    - https://mocobeta.github.io/janome/en/
-    - https://mocobeta.github.io/janome/
+  doc_url: https://mocobeta.github.io/janome/en/
   dev_url: https://github.com/mocobeta/janome/wiki#for-contributors
 
 extra:
