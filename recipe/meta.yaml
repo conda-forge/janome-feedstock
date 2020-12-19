@@ -26,6 +26,10 @@ test:
   imports:
     - janome
     - janome.sysdic
+  commands:
+     - pip check
+   requires:
+     - pip
 
 about:
   home: https://github.com/mocobeta/janome
