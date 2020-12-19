@@ -11,7 +11,7 @@ source:
   sha256: 6c2c38d894014d57cb3151265c11146506ead3b3bc290898adc33711711612de
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,8 +41,7 @@ about:
   doc_url:
     - https://mocobeta.github.io/janome/en/
     - https://mocobeta.github.io/janome/
-  dev_url:
-    - https://github.com/mocobeta/janome/wiki#for-contributors
+  dev_url: https://github.com/mocobeta/janome/wiki#for-contributors
 
 extra:
   recipe-maintainers:
