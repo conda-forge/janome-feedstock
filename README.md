@@ -11,7 +11,7 @@ Summary: Japanese morphological analysis engine.
 
 Development: https://github.com/mocobeta/janome/wiki#for-contributors
 
-Documentation: ['https://mocobeta.github.io/janome/en/', 'https://mocobeta.github.io/janome/']
+Documentation: https://mocobeta.github.io/janome/en/
 
 Current build status
 ====================
