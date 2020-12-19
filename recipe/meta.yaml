@@ -38,9 +38,7 @@ about:
   license_file:
     - LICENSE.txt
     - NOTICE.txt
-  doc_url:
-    - https://mocobeta.github.io/janome/en/
-    - https://mocobeta.github.io/janome/
+  doc_url: https://mocobeta.github.io/janome/en/
   dev_url: https://github.com/mocobeta/janome/wiki#for-contributors
 
 extra:
