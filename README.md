@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/janome-feedstoc
 
 Summary: Japanese morphological analysis engine.
 
-Development: ['https://github.com/mocobeta/janome/wiki#for-contributors']
+Development: https://github.com/mocobeta/janome/wiki#for-contributors
 
 Documentation: ['https://mocobeta.github.io/janome/en/', 'https://mocobeta.github.io/janome/']
 
