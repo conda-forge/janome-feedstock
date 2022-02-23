@@ -1,5 +1,5 @@
 {% set name = "Janome" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6c2c38d894014d57cb3151265c11146506ead3b3bc290898adc33711711612de
+  sha256: 14c31bbfc11724da299b4b71a06bccb3af9a105e7c912bc38a22132d8991ec97
 
 build:
-  number: 7
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
