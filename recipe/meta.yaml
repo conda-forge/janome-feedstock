@@ -1,5 +1,5 @@
 {% set name = "Janome" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
-    sha256: 9d58e6236f0f64adf13a5e8997c3b13d78103e951cd3594345a9ad9970569753
+    sha256: 53ba04aa68f0a35410db418936460ab66764ac5621c655080c5f5a58b99f83ed
   # NOTICE.txt (bundled mecab-ipadic license) is no longer shipped in the sdist
   - url: https://raw.githubusercontent.com/mocobeta/janome/{{ version }}/NOTICE.txt
     sha256: d1b546ff809d25ca450defb97a6a95e98d9cae1fee5457ab5ee831a60d4d1bce
